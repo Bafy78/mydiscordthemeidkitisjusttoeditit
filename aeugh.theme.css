@@ -18,7 +18,7 @@
   --danger-color: #982929;
   --url-color: var(--main-color);
   --background-image: url('https://cdn.discordapp.com/attachments/419522338917187595/1117794197022457876/M30fYMf.jpeg');
-  --background-shading: 75%;
+  --background-shading: 80%;
   --background-position: center;
   --background-size: cover;
   --background-repeat: no-repeat;
@@ -55,9 +55,9 @@
   --home-icon: url('https://cdn.discordapp.com/attachments/419522338917187595/1117795743126798366/3VZ2Zg9.jpeg');
   --home-position: center;
   --home-size: 86px;
-  --channel-unread: #FFFFFFBF;
+  --channel-unread: #FFFFFF;
   --channel-color: rgb(255,255,255,0.5);
-  --muted-color: rgb(255,255,255,0.2);
+  --muted-color: rgb(0,0,0,1);
   --online-color: #43b581;
   --idle-color: #faa61a;
   --dnd-color: #982929;
