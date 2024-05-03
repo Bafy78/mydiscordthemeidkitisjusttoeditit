@@ -30,7 +30,7 @@
   --background-invert: 0%;
   --background-blur: 0px;
   --background-overlay: rgba(0,0,0,0.6);
-  --user-popout-image: url('https://cdn.discordapp.com/attachments/419522338917187595/1117795161070637097/mu24aJc.jpeg');
+  --user-popout-image: url('https://cdn.discordapp.com/attachments/419522338917187595/1117795161070637097/mu24aJc.jpeg?ex=66362c5e&is=6634dade&hm=70c59d240645f86e2f841ae1df2ca3cbd441dcf06e6c33d2eb35846fede82929&');
   --user-popout-position: center right;
   --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
@@ -41,7 +41,7 @@
   --user-popout-grayscale: 0%;
   --user-popout-invert: 0%;
   --user-popout-blur: 2px;
-  --user-modal-image: url('https://cdn.discordapp.com/attachments/419522338917187595/1117795536087556136/GuyqpJs.jpeg');
+  --user-modal-image: url('https://cdn.discordapp.com/attachments/419522338917187595/1117795161070637097/mu24aJc.jpeg?ex=66362c5e&is=6634dade&hm=70c59d240645f86e2f841ae1df2ca3cbd441dcf06e6c33d2eb35846fede82929&');
   --user-modal-position: center;
   --user-modal-size: cover;
   --user-modal-repeat: no-repeat;
@@ -52,7 +52,7 @@
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
   --user-modal-blur: 2px;
-  --home-icon: url('https://cdn.discordapp.com/attachments/419522338917187595/1117795743126798366/3VZ2Zg9.jpeg');
+  --home-icon: url('https://cdn.discordapp.com/attachments/419522338917187595/1117795743126798366/3VZ2Zg9.jpeg?ex=66362ce8&is=6634db68&hm=fa28566c00f696f43582368849ba17fdfdf7bb27e0b705f0df102d11c389b005&');
   --home-position: center;
   --home-size: 86px;
   --channel-unread: #FFFFFF;
