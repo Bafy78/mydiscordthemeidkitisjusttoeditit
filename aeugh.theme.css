@@ -17,7 +17,7 @@
   --success-color: #4CAF50;
   --danger-color: #982929;
   --url-color: var(--main-color);
-  --background-image: url('https://drive.google.com/file/d/1a_o6-Q4i7uHzpI4U9feFEbnqBqYy5zRH/view?usp=sharing');
+  --background-image: url('https://cdn.discordapp.com/attachments/419522338917187595/1117794197022457876/M30fYMf.jpeg?ex=66b8aff8&is=66b75e78&hm=b6347e71cf11c4550e0d8782f2ccfddaa8862f4c62d06773ed64871cbd927d5b&');
   --background-shading: 100%;
   --background-position: center;
   --background-size: cover;
@@ -30,7 +30,7 @@
   --background-invert: 0%;
   --background-blur: 0px;
   --background-overlay: rgba(0,0,0,0.6);
-  --user-popout-image: url('https://drive.google.com/file/d/1MlDgndtYZ3_V59rvXjOtNK6sC7nsnKu2/view?usp=sharing');
+  --user-popout-image: url('https://cdn.discordapp.com/attachments/419522338917187595/1117795161070637097/mu24aJc.jpeg?ex=66b8b0de&is=66b75f5e&hm=56d8fe3d3a2e8799b2d2350da445673c45da4c49bde6dfb4123adef172327b73&');
   --user-popout-position: center right;
   --user-popout-size: cover;
   --user-popout-repeat: no-repeat;
@@ -41,7 +41,7 @@
   --user-popout-grayscale: 0%;
   --user-popout-invert: 0%;
   --user-popout-blur: 2px;
-  --user-modal-image: url('https://drive.google.com/file/d/1MlDgndtYZ3_V59rvXjOtNK6sC7nsnKu2/view?usp=sharing');
+  --user-modal-image: url('https://cdn.discordapp.com/attachments/419522338917187595/1117795161070637097/mu24aJc.jpeg?ex=66b8b0de&is=66b75f5e&hm=56d8fe3d3a2e8799b2d2350da445673c45da4c49bde6dfb4123adef172327b73&');
   --user-modal-position: center;
   --user-modal-size: cover;
   --user-modal-repeat: no-repeat;
@@ -52,7 +52,7 @@
   --user-modal-grayscale: 0%;
   --user-modal-invert: 0%;
   --user-modal-blur: 2px;
-  --home-icon: url('https://drive.google.com/file/d/1apWOwDWGDCHoIohJfiMLwCVImjgn056s/view?usp=sharing');
+  --home-icon: url('https://cdn.discordapp.com/attachments/419522338917187595/1117795743126798366/3VZ2Zg9.jpeg?ex=66b8b168&is=66b75fe8&hm=45e8f6c6b94600095cb5fb44a84f99eaf385612a55aa166fc964e3dcb5641d58&');
   --home-position: center;
   --home-size: 86px;
   --channel-unread: #FFFFFF;
