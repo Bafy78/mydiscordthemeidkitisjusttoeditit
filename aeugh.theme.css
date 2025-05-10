@@ -1,90 +1,91 @@
 /**
- * @name aeugh
+ * @name ClearVision V7 for BetterDiscord
  * @author ClearVision Team
- * @version 6.3.0
- * @description Highly customizable and beautiful theme for BetterDiscord.
- * @source https://github.com/ClearVision/ClearVision-v6
+ * @version 7.0.0
+ * @description Highly customizable theme for BetterDiscord.
+ * @source https://github.com/ClearVision/ClearVision-v7
  * @website https://clearvision.github.io
- * @invite 7pNUC9C
- * @BDEditor Clear Vision
-*/
-
-@import url('https://clearvision.github.io/ClearVision-v6/main.css');
-
+ * @invite dHaSxn3
+ */
+/* IMPORT CSS */
+@import url("https://clearvision.github.io/ClearVision-v7/main.css");
+@import url("https://clearvision.github.io/ClearVision-v7/betterdiscord.css");
+/* SETTINGS */
 :root {
+  /* ACCENT COLORS */
   --main-color: #006600;
   --hover-color: #003C00;
   --success-color: #4CAF50;
   --danger-color: #982929;
-  --url-color: var(--main-color);
-  --background-image: url('https://raw.githubusercontent.com/Bafy78/mydiscordthemeidkitisjusttoeditit/main/Finale1.jpeg');
-  --background-shading: 100%;
-  --background-position: center;
-  --background-size: cover;
-  --background-repeat: no-repeat;
-  --background-attachment: fixed;
-  --background-brightness: 100%;
-  --background-contrast: 100%;
-  --background-saturation: 100%;
-  --background-grayscale: 0%;
-  --background-invert: 0%;
-  --background-blur: 0px;
-  --background-overlay: rgba(0,0,0,0.6);
-  --user-popout-image: url('https://raw.githubusercontent.com/Bafy78/mydiscordthemeidkitisjusttoeditit/main/Trappist1-E_Lifescape.jpeg');
-  --user-popout-position: center right;
-  --user-popout-size: cover;
-  --user-popout-repeat: no-repeat;
-  --user-popout-attachment: fixed;
-  --user-popout-brightness: 100%;
-  --user-popout-contrast: 100%;
-  --user-popout-saturation: 100%;
-  --user-popout-grayscale: 0%;
-  --user-popout-invert: 0%;
-  --user-popout-blur: 2px;
-  --user-modal-image: url('https://raw.githubusercontent.com/Bafy78/mydiscordthemeidkitisjusttoeditit/main/WASP_121B_MetalCloud7.jpeg');
-  --user-modal-position: center;
-  --user-modal-size: cover;
-  --user-modal-repeat: no-repeat;
-  --user-modal-attachment: fixed;
-  --user-modal-brightness: 100%;
-  --user-modal-contrast: 100%;
-  --user-modal-saturation: 100%;
-  --user-modal-grayscale: 0%;
-  --user-modal-invert: 0%;
-  --user-modal-blur: 2px;
-  --home-icon: url('https://raw.githubusercontent.com/Bafy78/mydiscordthemeidkitisjusttoeditit/main/WASP_121B_MetalCloud2.jpeg');
-  --home-position: center;
-  --home-size: 86px;
-  --channel-unread: #FFFFFF;
-  --channel-color: rgb(255,255,255,0.5);
-  --muted-color: rgb(255,255,255,0.2);
+  /* STATUS COLORS */
   --online-color: #43b581;
   --idle-color: #faa61a;
   --dnd-color: #982929;
   --streaming-color: #593695;
   --offline-color: #808080;
-  --main-font: gg sans;
-  --code-font: Consolas;
-  --channels-width: 220px;
-  --members-width: 240px;
-  --backdrop-overlay: rgba(0,0,0,0.8);
-  --backdrop-image: var(--background-image);
-  --backdrop-position: var(--background-position);
-  --backdrop-size: var(--background-size);
-  --backdrop-repeat: var(--background-repeat);
-  --backdrop-attachment: var(--background-attachment);
-  --backdrop-brightness: var(--background-brightness);
-  --backdrop-contrast: var(--background-contrast);
-  --backdrop-saturation: var(--background-saturation);
-  --backdrop-invert: var(--background-invert);
-  --backdrop-grayscale: var(--background-grayscale);
-  --backdrop-sepia: var(--background-sepia);
-  --backdrop-blur: var(--background-blur);
-  --bd-blue: var(--main-color);
-  --bd-blue-hover: var(--hover-color);
-  --bd-blue-active: var(--hover-color);
+  /* APP BACKGROUND */
+  --background-shading-percent: 100%;
+  --background-image: url(https://raw.githubusercontent.com/Bafy78/mydiscordthemeidkitisjusttoeditit/main/Finale1.jpeg);
+  --background-attachment: fixed;
+  --background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
+  /* USER POPOUT BACKGROUND */
+  --user-popout-image: url(https://raw.githubusercontent.com/Bafy78/mydiscordthemeidkitisjusttoeditit/main/Trappist1-E_Lifescape.jpeg);
+  --user-popout-attachment: var(--background-attachment);
+  --user-popout-filter: var(--background-filter);
+  /* USER MODAL BACKGROUND */
+  --user-modal-image: url(https://raw.githubusercontent.com/Bafy78/mydiscordthemeidkitisjusttoeditit/main/WASP_121B_MetalCloud7.jpeg);
+  --user-modal-attachment: var(--background-attachment);
+  --user-modal-filter: var(--background-filter);
+  /* HOME ICON */
+  --home-icon: url(https://raw.githubusercontent.com/Bafy78/mydiscordthemeidkitisjusttoeditit/main/WASP_121B_MetalCloud2.jpeg);
+  /* FONTS */
+  --main-font: "gg sans", Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --code-font: Consolas, "gg mono", "Liberation Mono", Menlo, Courier, monospace;
 }
 
-/* Any custom CSS below here */
+/* THEME SPECIFIC SHADING */
+/* LIGHT THEME */
+:is(.theme-light, .theme-dark .theme-light) {
+  --background-shading: rgba(252, 252, 252, 0.3);
+  --card-shading: rgba(252, 252, 252, 0.3);
+  --popout-shading: rgba(252, 252, 252, 0.7);
+  --modal-shading: rgba(252, 252, 252, 0.5);
+  --input-shading: rgba(0, 0, 0, 0.3);
+  --normal-text: #36363c;
+  --muted-text: #75757e;
+}
 
+/* ASH THEME */
+:is(.theme-dark, .theme-light .theme-dark) {
+  --background-shading: rgba(0, 0, 0, 0.4);
+  --card-shading: rgba(0, 0, 0, 0.2);
+  --popout-shading: rgba(0, 0, 0, 0.6);
+  --modal-shading: rgba(0, 0, 0, 0.4);
+  --input-shading: rgba(255, 255, 255, 0.05);
+  --normal-text: #d8d8db;
+  --muted-text: #aeaeb4;
+}
 
+/* DARK THEME */
+:is(.theme-darker, .theme-light .theme-darker) {
+  --background-shading: rgba(0, 0, 0, 0.6);
+  --card-shading: rgba(0, 0, 0, 0.3);
+  --popout-shading: rgba(0, 0, 0, 0.7);
+  --modal-shading: rgba(0, 0, 0, 0.5);
+  --input-shading: rgba(255, 255, 255, 0.05);
+  --normal-text: #fbfbfb;
+  --muted-text: #94949c;
+}
+
+/* ONYX THEME */
+:is(.theme-midnight, .theme-light .theme-midnight) {
+  --background-shading: rgba(0, 0, 0, 0.8);
+  --card-shading: rgba(0, 0, 0, 0.4);
+  --popout-shading: rgba(0, 0, 0, 0.8);
+  --modal-shading: rgba(0, 0, 0, 0.6);
+  --input-shading: rgba(255, 255, 255, 0.05);
+  --normal-text: #dcdcde;
+  --muted-text: #86868e;
+}
+
+/* ADD ADDITIONAL CSS BELOW HERE */
